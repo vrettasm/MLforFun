@@ -5,7 +5,7 @@ from sklearn import datasets
 
 def test_knn_classification():
     # Local import.
-    from kNN import KNN
+    from Supervised.Classification.kNN import KNN
 
     # Get the Iris data-set.
     iris = datasets.load_iris()
